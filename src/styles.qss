@@ -1,0 +1,33 @@
+/* Colorful modern style */
+QWidget{
+    background: qlineargradient(x1:0,y1:0,x2:1,y2:1, stop:0 #f6f9ff, stop:1 #f1f6ff);
+    font-family: 'Segoe UI', Roboto, Arial;
+    color: #222;
+    font-size: 13px;
+}
+#sectionTitle{
+    font-weight: 700;
+    font-size: 16px;
+    color: #0b5fff;
+    margin-bottom: 6px;
+}
+QListWidget{
+    background: rgba(255,255,255,0.9);
+    border-radius: 8px;
+    padding: 6px;
+}
+QTextEdit, QLineEdit{
+    border-radius: 8px;
+    padding: 8px;
+    background: white;
+}
+QPushButton{
+    border-radius: 10px;
+    padding: 8px;
+    background: qlineargradient(x1:0,y1:0,x2:0,y2:1, stop:0 #6fb1ff, stop:1 #4a8cff);
+    color: white;
+    border: none;
+    min-width: 60px;
+    font-weight: 600;
+}
+QPushButton:hover{ transform: translateY(-1px); }

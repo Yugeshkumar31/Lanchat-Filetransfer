@@ -1,0 +1,32 @@
+
+/* A colorful, modern style for the app */
+QMainWindow {
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1,
+        stop:0 #f6d365, stop:0.5 #fda085, stop:1 #f6d365);
+    font-family: "Segoe UI", Roboto, Arial;
+}
+QListWidget {
+    background: rgba(255,255,255,0.9);
+    border-radius: 12px;
+    padding: 8px;
+}
+QPushButton {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #6dd5fa, stop:1 #2980b9);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+QPushButton#danger {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #ff7e7e, stop:1 #ff3b3b);
+}
+QLineEdit, QTextEdit {
+    background: rgba(255,255,255,0.95);
+    border-radius: 8px;
+    padding: 6px;
+}
+QLabel {
+    color: #1b2b34;
+    font-weight: 600;
+}
