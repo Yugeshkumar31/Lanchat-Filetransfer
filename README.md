@@ -86,7 +86,9 @@ Peers will be automatically discovered.
   <br><br>
   <img src="screenshots/peer_list.png" width="900"/>
   <br><br>
-  <img src="screenshots/file_transfer.png" width="900"/>
+  <img src="screenshots/file_transfer1.png" width="900"/>
+  <br><br>
+  <img src="screenshots/file_transfer2.png" width="900"/>
 </p>
 
 ---
@@ -96,6 +98,11 @@ Peers will be automatically discovered.
 Lanchat-Filetransfer/
 │
 ├── received_files/
+├── screenshots/
+│   ├── chat_ui.png
+│   ├── file_transfer1.png
+│   ├── file_transfer2.png
+│   └── peer_list.png
 ├── src/
 │   ├── app/
 │   │   ├── gui.py
@@ -103,7 +110,7 @@ Lanchat-Filetransfer/
 │   │   ├── protocol.py
 │   │   └── utils.py
 │   ├── assets/
-│   │   ├── assets.qss
+│   │   └── assets.qss
 │   ├── gui.py
 │   ├── main.py
 │   ├── network.py
